@@ -4,7 +4,7 @@
       <!-- 侧边栏 -->
       <el-aside :width="isCollapse ? '64px' : '200px'" class="sidebar">
         <div class="sidebar-header">
-          <h2 v-if="!isCollapse" class="logo-text">伙伴匹配</h2>
+          <h2 v-if="!isCollapse" class="logo-text">西电搭子平台</h2>
           <el-icon v-else class="logo-icon"><User /></el-icon>
         </div>
         <el-menu
